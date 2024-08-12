@@ -1,6 +1,8 @@
 
 <template>
-
+<div class="bg-customSnuff">
+  aaa
+</div>
 
 
 </template>

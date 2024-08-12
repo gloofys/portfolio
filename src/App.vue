@@ -2,6 +2,8 @@
   <div id="app">
     <Header />
     <main>
+      <div class="bg-customSnuff">
+      </div>
     </main>
   </div>
 </template>
