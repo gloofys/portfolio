@@ -13,7 +13,7 @@
         <a href="https://drive.google.com/file/d/13_nzqKP1soc1VWG6XjZrV51PDIjP2vGx/view?usp=sharing" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="text-customBlue hover:text-blue-800 transition duration-300 rounded-sm" viewBox="0 0 24 24">
             <rect width="24" height="24" fill="currentColor"/>
-            <text x="12" y="16" font-family="Arial" font-size="10" fill="custom" text-anchor="middle" class="text-customSnuff font-bold">CV</text>
+            <text x="12" y="18" font-family="Arial" font-size="10" fill="custom" text-anchor="middle" class="text-customSnuff font-bold text-base text-center">CV</text>
           </svg>
         </a>
       </div>

@@ -2,18 +2,19 @@
   <div id="app">
     <Header />
     <main>
-      <div class="bg-customSnuff">
-      </div>
+<Home/>
     </main>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Home from "@/views/Home.vue";
 
 export default {
   name: "App",
   components: {
+    Home,
     Header
   }
 }
