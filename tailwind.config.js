@@ -9,9 +9,10 @@ export default {
       colors:{
         customBlue:'#134867',
         customSnuff:'#d8d4e6',
-        customFlamingo:'#F14F36',
+        customFlamingo:'#b95b7d',
         customWine:'#1D425C',
-        customFlush:'#B73E83'
+        customFlush:'#3E3E52',
+        customPersian:'#3f384b'
       }
     },
   },
