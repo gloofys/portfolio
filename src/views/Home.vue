@@ -6,6 +6,11 @@
         Your browser does not support the video tag.
       </video>
 
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-center text-customFlush">
+        <h1 class="text-4xl font-bold m-12">My Name is Fred Brosman, Born in 26th of July 1993, living in Tallinn, Estonia</h1>
+      </div>
+    </div>
 
     <DialogComponent
         imageSrc="https://m.media-amazon.com/images/I/71skAxiMC2L._AC_UF1000,1000_QL80_.jpg"

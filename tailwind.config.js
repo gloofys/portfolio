@@ -8,7 +8,10 @@ export default {
     extend: {
       colors:{
         customBlue:'#134867',
-        customSnuff:'#d8d4e6'
+        customSnuff:'#d8d4e6',
+        customFlamingo:'#F14F36',
+        customWine:'#1D425C',
+        customFlush:'#B73E83'
       }
     },
   },

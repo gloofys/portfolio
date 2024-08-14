@@ -4,3 +4,6 @@
 .custom-logo-color {
     filter: invert(18%) sepia(63%) saturate(2385%) hue-rotate(170deg) brightness(90%) contrast(110%);
 }
+#app {
+    background-color: #d8d4e6; /* Global background color */
+}

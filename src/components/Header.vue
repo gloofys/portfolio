@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-customSnuff text-white p-0">
+  <header class="bg-transparent text-white p-0 sticky top-0 z-50">
     <div class="flex items-center justify-between content-wrapper">
       <router-link to="/" class="flex-shrink-0" style="width: 12rem;">
         <img src="/LOGO.png" alt="logo" class="w-full h-auto custom-logo-color" />
