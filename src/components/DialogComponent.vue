@@ -6,15 +6,15 @@
         @click="toggleDialog"
         ref="triggerRef"
     >
-      <div class="flex items-center space-x-3 content-wrapper">
+      <div class="flex items-center space-x-3 border-2 rounded border-customBlue">
         <img
             :src="imageSrc"
             :alt="imageAlt"
-            class="h-8 w-8 object-cover object-top"
+            class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 object-cover object-top"
         />
         <div class="flex flex-col items-start justify-center space-y-0">
-          <h3 class="text-[10px] font-medium text-black sm:text-xs">{{ dialogTitle }}</h3>
-          <p class="text-[10px] text-gray-600 sm:text-xs">{{ dialogSubtitle }}</p>
+          <h3 class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] font-medium text-black">{{ dialogTitle }}</h3>
+          <p class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] text-gray-600">{{ dialogSubtitle }}</p>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
           <img
               :src="imageSrc"
               :alt="imageAlt"
-              class="h-auto w-[200px]"
+              class="h-auto w-[300px]"
           />
         </div>
         <div>
