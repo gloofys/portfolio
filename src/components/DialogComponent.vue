@@ -6,7 +6,7 @@
         @click="toggleDialog"
         ref="triggerRef"
     >
-      <div class="flex items-center space-x-3 border-2 rounded border-customBlue">
+      <div class="flex items-center space-x-3 border-2 rounded border-customBlue p-4">
         <img
             :src="imageSrc"
             :alt="imageAlt"
@@ -40,10 +40,13 @@
         <div>
           <h3 class="text-black">{{ dialogTitle }}</h3>
           <p class="font-light text-gray-400">{{ dialogSubtitle }}</p>
-          <div class="mt-4 text-sm text-gray-700">
+          <div class="mt-4 text-sm text-gray-700 space-y-2">
             <p>{{ dialogDescription1 }}</p>
             <p>{{ dialogDescription2 }}</p>
             <p>{{ dialogDescription3 }}</p>
+            <p>
+              <a :href="linkUrl" target="_blank" class="text-blue-500 hover:text-blue-700">{{ dialogDescription4 }}</a>
+            </p>
           </div>
         </div>
         <button @click="toggleDialog" class="absolute right-6 top-6 text-zinc-500">Close</button>
@@ -65,6 +68,8 @@ export default {
     dialogDescription1: String,
     dialogDescription2: String,
     dialogDescription3: String,
+    dialogDescription4: String,
+    linkUrl: String,
   },
   data() {
     return {
