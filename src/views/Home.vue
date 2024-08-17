@@ -44,7 +44,7 @@
           dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
           dialogDescription3="Vue, Java, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
           dialogDescription4="Lint to git project repository"
-          linkUrl="https://badacsony.vercel.app"
+          linkUrl="https://github.com/vallekapstas/playpalback"
       />
     </div>
   </div>
