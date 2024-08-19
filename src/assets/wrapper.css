@@ -10,8 +10,7 @@
     padding: 1rem 5rem;
 }
 .character-wrapper{
-    margin-left: 55%;
-    padding-right: 5rem;
+    padding: 2rem 5rem;
 }
 @media (max-width: 768px) {
     .content-wrapper {
