@@ -9,6 +9,10 @@
 .dialog-wrapper{
     padding: 1rem 5rem;
 }
+.character-wrapper{
+    margin-left: 55%;
+    padding-right: 5rem;
+}
 @media (max-width: 768px) {
     .content-wrapper {
         padding: 0 1rem;
