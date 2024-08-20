@@ -12,6 +12,16 @@
 .character-wrapper{
     padding: 2rem 5rem;
 }
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
 @media (max-width: 768px) {
     .content-wrapper {
         padding: 0 1rem;

@@ -41,25 +41,43 @@ export default {
     const charRefs = ref([]);
     const words = computed(() => slots.default()[0].children.split(/(\S+)/));
 
+
     const animateWords = () => {
-      const tl = gsap.timeline({ defaults: { stagger: 0.1 } });
+      const tl = gsap.timeline({ defaults: { stagger: 0.05, ease: "power2.out" } });
       const elements = props.per === 'word' ? wordRefs.value : charRefs.value;
 
       if (props.preset === 'blur') {
-        tl.fromTo(elements, { opacity: 0, filter: 'blur(12px)' }, { opacity: 1, filter: 'blur(0px)', duration: 2 });
+        tl.fromTo(elements, { opacity: 0, filter: 'blur(12px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.5 });
       } else if (props.preset === 'shake') {
         tl.fromTo(elements, { x: 0 }, { x: [-5, 5, -5, 5, 0], duration: 0.5 });
       } else if (props.preset === 'scale') {
         tl.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.5 });
       } else if (props.preset === 'fade') {
-        tl.fromTo(elements, { opacity: 0 }, { opacity: 1, duration: 0.5 });
+        tl.fromTo(elements, { opacity: 0 }, { opacity: 1, duration: 0.1 });
       } else if (props.preset === 'slide') {
-        tl.fromTo(elements, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5 });
+        tl.fromTo(elements, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.1 });
+      }
+    };
+
+    const observeElement = () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateWords();
+            observer.unobserve(entry.target); // Unobserve after animation starts
+          }
+        });
+      }, {
+        threshold: 0.5, // Adjust this threshold to when you want the sequence to start
+      });
+
+      if (containerRef.value) {
+        observer.observe(containerRef.value);
       }
     };
 
     onMounted(() => {
-      animateWords();
+      observeElement();
     });
 
     return { containerRef, wordRefs, charRefs, words };
