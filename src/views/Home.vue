@@ -20,47 +20,47 @@
   <!-- Character Section -->
   <div ref="textContainerRef" class="character-wrapper">
     <div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-12">
-      <TextEffect ref="detailRef" preset="slide" per="char" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="detailRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Attention to detail
       </TextEffect>
-      <TextEffect ref="detailTextRef" preset="slide" per="word" as="p">
+      <TextEffect ref="detailRef" preset="fade" per="word" as="p">
         "Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is spot-on—even if it means going the extra millimeter."
       </TextEffect>
     </div>
 
-    <div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="ml-[15%] mb-12">
-      <TextEffect ref="persistenceRef" preset="scale" per="char" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-12">
+      <TextEffect ref="persistenceRef" preset="scale" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Persistence
       </TextEffect>
-      <TextEffect ref="persistenceTextRef" preset="slide" per="word" as="p">
+      <TextEffect ref="persistenceTextRef" preset="fade" per="word" as="p">
         "I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop until it was perfectly finished."
       </TextEffect>
     </div>
 
-    <div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class="ml-[30%] mb-12">
-      <TextEffect ref="problemRef" preset="scale" per="char" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-12">
+      <TextEffect ref="problemRef" preset="scale" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Problem-Solving
       </TextEffect>
-      <TextEffect ref="problemTextRef" preset="slide" per="word" as="p">
+      <TextEffect ref="problemTextRef" preset="fade" per="word" as="p">
         "In construction, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly."
       </TextEffect>
     </div>
 
-    <div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class="ml-[45%] mb-12">
-      <TextEffect ref="growthRef" preset="slide" per="char" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-12">
+      <TextEffect ref="growthRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Continuous Growth
       </TextEffect>
-      <TextEffect ref="growthTextRef" preset="slide" per="word" as="p">
+      <TextEffect ref="growthRef" preset="fade" per="word" as="p">
         "After mastering the challenges in my previous career, I found myself seeking new horizons where I could
         continue to learn and evolve. This led me to front-end development."
       </TextEffect>
     </div>
 
-    <div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class="ml-[60%] mb-12">
-      <TextEffect ref="teamworkRef" preset="slide" per="char" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-12">
+      <TextEffect ref="teamworkRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Teamwork
       </TextEffect>
-      <TextEffect ref="teamworkTextRef" preset="slide" per="word" as="p">
+      <TextEffect ref="teamworkTextRef" preset="fade" per="word" as="p">
         "Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to
         ensure successful project outcomes."
       </TextEffect>
