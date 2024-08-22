@@ -86,6 +86,6 @@ export default {
 
 <style>
 .will-change {
-  will-change: opacity, transform;
+  will-change: opacity, transform, filter;
 }
 </style>

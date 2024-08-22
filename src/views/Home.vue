@@ -20,7 +20,7 @@
   <!-- Character Section -->
   <div ref="textContainerRef" class="character-wrapper">
     <div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-12">
-      <TextEffect ref="detailRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="detailRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Attention to detail
       </TextEffect>
       <TextEffect ref="detailRef" preset="fade" per="word" as="p">
@@ -29,7 +29,7 @@
     </div>
 
     <div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-12">
-      <TextEffect ref="persistenceRef" preset="scale" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="persistenceRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Persistence
       </TextEffect>
       <TextEffect ref="persistenceTextRef" preset="fade" per="word" as="p">
@@ -38,7 +38,7 @@
     </div>
 
     <div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-12">
-      <TextEffect ref="problemRef" preset="scale" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="problemRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Problem-Solving
       </TextEffect>
       <TextEffect ref="problemTextRef" preset="fade" per="word" as="p">
@@ -47,7 +47,7 @@
     </div>
 
     <div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-12">
-      <TextEffect ref="growthRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="growthRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Continuous Growth
       </TextEffect>
       <TextEffect ref="growthRef" preset="fade" per="word" as="p">
@@ -57,7 +57,7 @@
     </div>
 
     <div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-12">
-      <TextEffect ref="teamworkRef" preset="fade" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <TextEffect ref="teamworkRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Teamwork
       </TextEffect>
       <TextEffect ref="teamworkTextRef" preset="fade" per="word" as="p">
