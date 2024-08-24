@@ -16,6 +16,10 @@
     opacity: 0;
     visibility: hidden;
 }
+.in-view{
+    opacity: 0;
+    transform: translateY(50px); /* Start elements slightly lower */
+}
 
 .visible {
     opacity: 1;

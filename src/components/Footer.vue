@@ -24,8 +24,8 @@
           </div>
         </div>
         <div class="flex items-center space-x-4 mr-8">
-          <a href="https://linkedin.com/in/yourprofile" target="_blank">
-            <img src="/LOGO.png" alt="LinkedIn" class="w-6 h-6 hover:opacity-75 transition-opacity duration-300">
+          <a href="https://linkedin.com/in/fred-brosman" target="_blank">
+            <img src="/favicon.ico" alt="LinkedIn" class="w-6 h-6 hover:opacity-75 transition-opacity duration-300">
           </a>
           <a href="https://github.com/gloofys" target="_blank">
             <img src="/favicon.ico" alt="GitHub" class="w-6 h-6 hover:opacity-75 transition-opacity duration-300">
