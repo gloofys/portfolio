@@ -23,7 +23,7 @@
         Attention to detail
       </h1>
       <p>
-        "Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is spot-on—even if it means going the extra millimeter."
+        Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is spot-on—even if it means going the extra millimeter.
       </p>
     </div>
 
@@ -32,7 +32,7 @@
         Persistence
       </h1>
       <p>
-        "I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop until it was perfectly finished."
+        I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop until it was perfectly finished.
       </p>
     </div>
 
@@ -41,7 +41,7 @@
         Problem-Solving
       </h1>
       <p>
-        "In construction, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly."
+        In construction, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly.
       </p>
     </div>
 
@@ -50,7 +50,7 @@
         Continuous Growth
       </h1>
       <p>
-        "After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue to learn and evolve. This led me to front-end development."
+        After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue to learn and evolve. This led me to front-end development.
       </p>
     </div>
 
@@ -59,7 +59,7 @@
         Teamwork
       </h1>
       <p>
-        "Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes."
+        Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes.
       </p>
     </div>
   </div>
