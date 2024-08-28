@@ -1,6 +1,6 @@
 <template>
   <!-- Video Section -->
-  <div class="relative">
+  <div class="relative mt-10 lg:mt-2">
     <video autoplay loop muted playsinline class="w-full h-auto">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -8,17 +8,23 @@
   </div>
 
   <!-- Main Text Section -->
-  <div class="absolute inset-0 flex items-center justify-center text-container -mt-72">
-    <div class="text-center max-w-5xl p-4">
-      <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
-        Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by
-        a passion for creating user-friendly websites as I build my skills in web design and coding.
+  <div class="absolute inset-0 flex items-center justify-center text-container -mt-160 xl:-mt-72 sm:-mt-128">
+    <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4">
+      <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug">
+        Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by a passion for creating user-friendly websites.
       </TextEffect>
     </div>
   </div>
 
   <div class="character-wrapper">
-    <div class="in-view mb-12">
+    <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-8 font-bold">
+      Why You Should Hire Me
+    </h2>
+    <p class="text-center text-lg sm:text-xl mb-6">
+      Here are the qualities and strengths that I bring to the table, which make me the ideal candidate for your team.
+    </p>
+
+    <div class="in-view mb-6">
       <h1 class=" text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Attention to detail
       </h1>
@@ -27,7 +33,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-12">
+    <div class="in-view mb-6">
       <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Persistence
       </h1>
@@ -36,7 +42,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-12">
+    <div class="in-view mb-6">
       <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Problem-Solving
       </h1>
@@ -45,7 +51,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-12">
+    <div class="in-view mb-6">
       <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Continuous Growth
       </h1>
@@ -54,7 +60,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-12">
+    <div class="in-view mb-6">
       <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
         Teamwork
       </h1>
@@ -195,7 +201,7 @@ mounted() {
 
 
 <!--<div ref="textContainerRef" class="character-wrapper">-->
-<!--<div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-12">-->
+<!--<div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-6">-->
 <!--  <TextEffect ref="detailRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Attention to detail-->
 <!--  </TextEffect>-->
@@ -204,7 +210,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-12">-->
+<!--<div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-6">-->
 <!--  <TextEffect ref="persistenceRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Persistence-->
 <!--  </TextEffect>-->
@@ -213,7 +219,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="problemRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Problem-Solving-->
 <!--  </TextEffect>-->
@@ -222,7 +228,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="growthRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Continuous Growth-->
 <!--  </TextEffect>-->
@@ -232,7 +238,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="teamworkRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Teamwork-->
 <!--  </TextEffect>-->
@@ -244,7 +250,7 @@ mounted() {
 
 <!--&lt;!&ndash; Character Section &ndash;&gt;-->
 <!--<div ref="textContainerRef" class="character-wrapper">-->
-<!--<div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-12">-->
+<!--<div :class="[currentStep >= 1 ? 'visible' : 'hidden']" class="mb-6">-->
 <!--  <TextEffect ref="detailRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Attention to detail-->
 <!--  </TextEffect>-->
@@ -253,7 +259,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-12">-->
+<!--<div :class="[currentStep >= 2 ? 'visible' : 'hidden']" class="mb-6">-->
 <!--  <TextEffect ref="persistenceRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Persistence-->
 <!--  </TextEffect>-->
@@ -262,7 +268,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 3 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="problemRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Problem-Solving-->
 <!--  </TextEffect>-->
@@ -271,7 +277,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 4 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="growthRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Continuous Growth-->
 <!--  </TextEffect>-->
@@ -281,7 +287,7 @@ mounted() {
 <!--  </TextEffect>-->
 <!--</div>-->
 
-<!--<div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-12">-->
+<!--<div :class="[currentStep >= 5 ? 'visible' : 'hidden']" class=" mb-6">-->
 <!--  <TextEffect ref="teamworkRef" preset="blur" per="word" as="h1" class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">-->
 <!--    Teamwork-->
 <!--  </TextEffect>-->
