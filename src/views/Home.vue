@@ -83,7 +83,6 @@
     <!-- Flex container for dialog components -->
     <div class="flex space-x-3 dialog-wrapper">
       <DialogComponent
-          class="transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
           imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
           imageAlt="What I Talk About When I Talk About Running - book cover"
           dialogTitle="Balaton Wines & Views Webpage"
@@ -95,7 +94,6 @@
           linkUrl="https://badacsony.vercel.app"
       />
       <DialogComponent
-          class="transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
           imageSrc="/public/project_images/Playpal logo transparent.png"
           imageAlt="What I Talk About When I Talk About Running - book cover"
           dialogTitle="Playpal-board game community"

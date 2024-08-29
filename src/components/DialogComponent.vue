@@ -2,7 +2,7 @@
   <div>
     <!-- Dialog Trigger -->
     <div
-        class="bg-customSnuff cursor-pointer relative"
+        class="bg-customSnuff cursor-pointer relative transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
         @click="toggleDialog"
         ref="triggerRef"
     >
