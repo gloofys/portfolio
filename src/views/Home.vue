@@ -8,7 +8,7 @@
   </div>
 
   <!-- Main Text Section -->
-  <div class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-128">
+  <div class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-128 content-wrapper">
     <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4">
       <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
         Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by a passion for creating user-friendly websites.
@@ -16,8 +16,8 @@
     </div>
   </div>
 
-  <div class="character-wrapper">
-    <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
+  <div class="content-wrapper">
+    <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
       Why You Should Hire Me
     </h2>
     <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-center">
@@ -81,8 +81,9 @@
     </div>
 
     <!-- Flex container for dialog components -->
-    <div class="flex space-x-1 dialog-wrapper">
+    <div class="flex space-x-3 dialog-wrapper">
       <DialogComponent
+          class="transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
           imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
           imageAlt="What I Talk About When I Talk About Running - book cover"
           dialogTitle="Balaton Wines & Views Webpage"
@@ -94,6 +95,7 @@
           linkUrl="https://badacsony.vercel.app"
       />
       <DialogComponent
+          class="transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
           imageSrc="/public/project_images/Playpal logo transparent.png"
           imageAlt="What I Talk About When I Talk About Running - book cover"
           dialogTitle="Playpal-board game community"
