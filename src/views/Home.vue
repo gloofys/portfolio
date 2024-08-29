@@ -8,69 +8,70 @@
   </div>
 
   <!-- Main Text Section -->
-  <div class="absolute inset-0 flex items-center justify-center text-container -mt-160 xl:-mt-72 sm:-mt-128">
+  <div class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-128">
     <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4">
-      <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug">
+      <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
         Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by a passion for creating user-friendly websites.
       </TextEffect>
     </div>
   </div>
 
   <div class="character-wrapper">
-    <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-8 font-bold">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
       Why You Should Hire Me
     </h2>
-    <p class="text-center text-lg sm:text-xl mb-6">
-      Here are the qualities and strengths that I bring to the table, which make me the ideal candidate for your team.
+    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-center">
+      Here are the qualities and strengths that I bring to the table.
     </p>
 
-    <div class="in-view mb-6">
-      <h1 class=" text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
-        Attention to detail
+    <div class="in-view mb-10">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+        Attention to Detail
       </h1>
-      <p>
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
         Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is spot-on—even if it means going the extra millimeter.
       </p>
     </div>
 
-    <div class="in-view mb-6">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div class="in-view mb-10">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Persistence
       </h1>
-      <p>
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
         I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop until it was perfectly finished.
       </p>
     </div>
 
-    <div class="in-view mb-6">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div class="in-view mb-10">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Problem-Solving
       </h1>
-      <p>
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
         In construction, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly.
       </p>
     </div>
 
-    <div class="in-view mb-6">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div class="in-view mb-10">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Continuous Growth
       </h1>
-      <p>
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
         After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue to learn and evolve. This led me to front-end development.
       </p>
     </div>
 
-    <div class="in-view mb-6">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div class="in-view mb-10">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Teamwork
       </h1>
-      <p>
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
         Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes.
       </p>
     </div>
   </div>
 
-    <!-- Latest Projects Section -->
+
+  <!-- Latest Projects Section -->
     <div class="flex items-center latest-projects-wrapper">
       <div class="text-center text-customFlamingo max-w-5xl">
         <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">

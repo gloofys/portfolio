@@ -18,7 +18,16 @@ export default {
         '128': '32rem',
         '144': '36rem',
         '160': '40rem',
-      }
+      },
+      fontFamily: {
+        'shippori': ['"Shippori Mincho"', 'serif'], // Registering the font
+      },
+      fontWeight: {
+        'medium': 500,
+        'semibold': 600,
+        'bold': 700,
+        'extrabold': 800,
+      },
     },
   },
 
