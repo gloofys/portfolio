@@ -10,7 +10,7 @@
     padding: 1rem 5rem;
 }
 .character-wrapper{
-    padding: 2rem 5rem;
+    padding: 2rem 24rem;
 }
 .hidden {
     opacity: 0;
@@ -33,4 +33,13 @@
 
 
 }
-@media (min-width: 768px) and (max-width: 1024px){}
+@media (min-width: 768px) and (max-width: 1024px){
+    .character-wrapper{
+        padding: 2rem 12rem;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1525px){
+    .character-wrapper{
+        padding: 2rem 10rem;
+    }
+}

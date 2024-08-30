@@ -1,6 +1,6 @@
 <template>
   <!-- Video Section -->
-  <div class="relative mt-10 lg:mt-2">
+  <div class="relative mt-16 lg:mt-2 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -8,7 +8,7 @@
   </div>
 
   <!-- Main Text Section -->
-  <div class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-128 content-wrapper">
+  <div class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-160  content-wrapper">
     <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4">
       <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1" class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
         Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by a passion for creating user-friendly websites.
@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <div class="content-wrapper">
+  <div class="content-wrapper character-wrapper">
     <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
       Why You Should Hire Me
     </h2>
@@ -24,7 +24,7 @@
       Here are the qualities and strengths that I bring to the table.
     </p>
 
-    <div class="in-view mb-10">
+    <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Attention to Detail
       </h1>
@@ -33,7 +33,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-10">
+    <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Persistence
       </h1>
@@ -42,7 +42,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-10">
+    <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Problem-Solving
       </h1>
@@ -51,7 +51,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-10">
+    <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Continuous Growth
       </h1>
@@ -60,7 +60,7 @@
       </p>
     </div>
 
-    <div class="in-view mb-10">
+    <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Teamwork
       </h1>
