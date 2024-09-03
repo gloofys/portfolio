@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <main>
+    <main v-smooth-vuebar>
 <Home/>
     </main>
     <Footer/>
@@ -12,6 +12,7 @@
 import Header from './components/Header.vue'
 import Home from "@/views/Home.vue";
 import Footer from './components/Footer.vue'
+
 
 export default {
   name: "App",

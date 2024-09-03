@@ -1,5 +1,6 @@
 <template>
   <!-- Video Section -->
+
   <div class="relative mt-16 lg:mt-2 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
