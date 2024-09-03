@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <main v-smooth-vuebar>
+    <main>
 <Home/>
     </main>
     <Footer/>
