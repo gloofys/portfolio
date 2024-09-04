@@ -84,3 +84,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #134867, #d8d4e6); /* Gradient color */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid #f1f1f1; /* Adds a border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a202c; /* Color when hovering over the scrollbar thumb */
+}
