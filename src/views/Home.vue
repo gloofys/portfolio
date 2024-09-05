@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <div class="content-wrapper character-wrapper">
+  <div class="character-wrapper">
     <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
       Why You Should Hire Me
     </h2>
@@ -73,7 +73,7 @@
 
 
   <!-- Latest Projects Section -->
-    <div class="flex items-center latest-projects-wrapper">
+    <div class="flex items-center character-wrapper">
       <div class="text-center text-customFlamingo max-w-5xl">
         <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
           Latest Projects
@@ -82,7 +82,7 @@
     </div>
 
     <!-- Flex container for dialog components -->
-    <div class="flex space-x-3 dialog-wrapper">
+    <div class="flex space-x-3 character-wrapper">
       <DialogComponent
           imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
           imageAlt="What I Talk About When I Talk About Running - book cover"

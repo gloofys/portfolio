@@ -3,11 +3,9 @@
     padding: 2rem 5rem;
     margin: 0 auto;
 }
-.latest-projects-wrapper{
-    padding: 0 5rem;
-}
+
 .dialog-wrapper{
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
 }
 .character-wrapper{
     padding: 2rem 24rem;
@@ -30,16 +28,24 @@
     .content-wrapper {
         padding: 1rem 2rem;
     }
+    .character-wrapper{
+        padding: 1rem 2rem;
+    }
+
 
 
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .character-wrapper{
         padding: 2rem 12rem;
+    }    .dialog-wrapper{
+        padding: 2rem 12rem;
     }
 }
 @media (min-width: 1024px) and (max-width: 1525px){
     .character-wrapper{
+        padding: 2rem 10rem;
+    }    .dialog-wrapper{
         padding: 2rem 10rem;
     }
 }

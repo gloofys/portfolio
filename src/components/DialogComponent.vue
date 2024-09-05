@@ -6,7 +6,7 @@
         @click="toggleDialog"
         ref="triggerRef"
     >
-      <div class="flex items-center space-x-3 border-2 rounded border-customBlue p-4">
+      <div class="flex items-center space-x-4 border-2 rounded border-customBlue p-4 sm:space-x-1">
         <img
             :src="imageSrc"
             :alt="imageAlt"
