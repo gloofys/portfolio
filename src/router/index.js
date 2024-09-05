@@ -1,26 +1,34 @@
-import {createRouter, createWebHistory} from 'vue-router'
-import Home from "@/views/Home.vue";
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '@/views/Home.vue';
 
 const routes = [
     {
-        path:'/',
+        path: '/',
         component: {
-            template: '<router-view></router-view>'
+            template: '<router-view></router-view>',
         },
-        children:[
+        children: [
             {
-                path:'',
-                name:'Home',
-                component: Home
-            }
-        ]
-    }
-    ]
-
+                path: '',
+                name: 'Home',
+                component: Home,
+            },
+        ],
+    },
+];
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.VITE_BASE_URL),
-    routes
-})
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            // If a saved position is available (like after using browser's back/forward buttons), scroll to that position
+            return savedPosition;
+        } else {
+            // Scroll to the top for new navigation or reloads
+            return { top: 0 };
+        }
+    },
+});
 
-export default router
+export default router;
