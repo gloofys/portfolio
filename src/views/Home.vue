@@ -90,8 +90,9 @@
   </div>
 
   <!-- Flex container for dialog components -->
-  <div class="flex space-x-3 character-wrapper">
+  <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
     <DialogComponent
+        class="flex-equal"
         imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Balaton Wines & Views Webpage"
@@ -103,6 +104,7 @@
         linkUrl="https://badacsony.vercel.app"
     />
     <DialogComponent
+        class="flex-equal"
         imageSrc="/public/project_images/Playpal logo transparent.png"
         imageAlt="Image of Playpal logo"
         dialogTitle="Playpal-board game community"
@@ -125,8 +127,9 @@
   </div>
 
   <!-- Flex container for dialog components -->
-  <div class="flex space-x-3 character-wrapper">
+  <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
     <DialogComponent
+        class="flex-equal"
         imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
         imageAlt="Accounting course image"
         dialogTitle="Accounting course"
@@ -138,6 +141,7 @@
         linkUrl="https://badacsony.vercel.app"
     />
     <DialogComponent
+        class="flex-equal"
         imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
         imageAlt="Vali-IT logo image"
         dialogTitle="Vali-IT"
@@ -149,9 +153,10 @@
         linkUrl="https://badacsony.vercel.app"
     />
     <DialogComponent
+        class="flex-equal"
         imageSrc="/public/project_images/Playpal logo transparent.png"
         imageAlt="Data Science for businesses course image"
-        dialogTitle="Data science for businesses course"
+        dialogTitle="Data science"
         dialogSubtitle="Autumn 2024"
         dialogDescription1="Group project made in Vali-IT(adult re-education program for junior software developer role) with Valle and Katrin."
         dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
@@ -194,3 +199,12 @@ export default {
 };
 
 </script>
+
+<style scoped>
+/* Flex property to ensure equal width for all buttons */
+.flex-equal {
+  flex-grow: 1;  /* Allow the buttons to grow equally */
+  flex-basis: 0; /* Start with zero width, but grow to fill space */
+  min-width: 200px; /* Optional: Ensures a minimum size on small screens */
+}
+</style>
