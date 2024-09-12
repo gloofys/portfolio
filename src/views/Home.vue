@@ -130,15 +130,15 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
-        imageAlt="Accounting course image"
-        dialogTitle="Accounting course"
-        dialogSubtitle="Winter 2023"
-        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary"
-        dialogDescription2="The primary goal of this project is to create a user-friendly platform to help my family manage rental bookings while providing a detailed and engaging experience for potential guests. The website promotes our property and the beautiful Badacsony region, making it easier for renters to find and book their stay."
-        dialogDescription3="Vite, Vue.js, pure CSS, HTML, Vercel"
-        dialogDescription4="Check out the page"
-        linkUrl="https://badacsony.vercel.app"
+        imageSrc="/public/project_images/Playpal logo transparent.png"
+        imageAlt="Data Science for businesses course image"
+        dialogTitle="Data science"
+        dialogSubtitle="Autumn 2024"
+        dialogDescription1="Group project made in Vali-IT(adult re-education program for junior software developer role) with Valle and Katrin."
+        dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
+        dialogDescription3="Vue, Java, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
+        dialogDescription4="Link to git project repository"
+        linkUrl="https://github.com/vallekapstas/playpalback"
     />
     <DialogComponent
         class="flex-equal"
@@ -154,16 +154,18 @@
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Playpal logo transparent.png"
-        imageAlt="Data Science for businesses course image"
-        dialogTitle="Data science"
-        dialogSubtitle="Autumn 2024"
-        dialogDescription1="Group project made in Vali-IT(adult re-education program for junior software developer role) with Valle and Katrin."
-        dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
-        dialogDescription3="Vue, Java, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
-        dialogDescription4="Link to git project repository"
-        linkUrl="https://github.com/vallekapstas/playpalback"
+        imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
+        imageAlt="Accounting course image"
+        dialogTitle="Accounting course"
+        dialogSubtitle="Winter 2023"
+        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary"
+        dialogDescription2="The primary goal of this project is to create a user-friendly platform to help my family manage rental bookings while providing a detailed and engaging experience for potential guests. The website promotes our property and the beautiful Badacsony region, making it easier for renters to find and book their stay."
+        dialogDescription3="Vite, Vue.js, pure CSS, HTML, Vercel"
+        dialogDescription4="Check out the page"
+        linkUrl="https://badacsony.vercel.app"
     />
+
+
   </div>
 
 
