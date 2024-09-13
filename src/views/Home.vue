@@ -83,11 +83,12 @@
   <!-- Latest Projects Section -->
   <div class="flex items-center character-wrapper">
     <div class="text-center text-customBlue max-w-5xl">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
         Latest Projects
       </h1>
     </div>
   </div>
+
 
   <!-- Flex container for dialog components -->
   <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
