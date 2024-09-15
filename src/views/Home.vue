@@ -81,9 +81,9 @@
 
 
   <!-- Latest Projects Section -->
-  <div class="flex items-center character-wrapper">
-    <div class="text-center text-customBlue max-w-5xl">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
+  <div class="flex items-center project-wrapper">
+    <div class="text-center max-w-5xl">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
         Latest Projects
       </h1>
     </div>
@@ -91,7 +91,7 @@
 
 
   <!-- Flex container for dialog components -->
-  <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
+  <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
         imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
@@ -118,52 +118,52 @@
     />
   </div>
 
-  <div class="flex items-center character-wrapper">
+  <div class="flex items-center project-wrapper">
 
-    <div class="text-center text-customBlue max-w-5xl">
-      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+    <div class="text-center max-w-5xl">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
         Latest Courses
       </h1>
     </div>
   </div>
 
   <!-- Flex container for dialog components -->
-  <div class="flex flex-wrap gap-6 justify-center items-stretch character-wrapper">
+  <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Playpal logo transparent.png"
+        imageSrc="/public/project_images/UT_logo.png"
         imageAlt="Data Science for businesses course image"
-        dialogTitle="Data science"
+        dialogTitle="Data Science in Business Decision-Making"
         dialogSubtitle="Autumn 2024"
-        dialogDescription1="Group project made in Vali-IT(adult re-education program for junior software developer role) with Valle and Katrin."
-        dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
-        dialogDescription3="Vue, Java, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
-        dialogDescription4="Link to git project repository"
-        linkUrl="https://github.com/vallekapstas/playpalback"
+        dialogDescription1="This course focused on the practical applications of data science in business environments, introducing standard processes like CRISP-DM, data collection, cleaning, and visualization. It also covers key topics such as machine learning, business analytics, and the role of data science in decision-making."
+        dialogDescription2=""
+        dialogDescription3="University of Tartu"
+        dialogDescription4=""
+        linkUrl=""
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
+        imageSrc="/public/project_images/valiit_logo.png"
         imageAlt="Vali-IT logo image"
-        dialogTitle="Vali-IT"
+        dialogTitle="Vali IT! Junior Software Developer"
         dialogSubtitle="Spring 2024"
-        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary"
-        dialogDescription2="The primary goal of this project is to create a user-friendly platform to help my family manage rental bookings while providing a detailed and engaging experience for potential guests. The website promotes our property and the beautiful Badacsony region, making it easier for renters to find and book their stay."
-        dialogDescription3="Vite, Vue.js, pure CSS, HTML, Vercel"
-        dialogDescription4="Check out the page"
-        linkUrl="https://badacsony.vercel.app"
+        dialogDescription1="During the Vali IT! program, I completed 240 hours of intensive training focused on full-stack software development. I worked with technologies like Java, RESTful APIs, Spring Boot, HTML5, CSS, and Vue.js. Throughout the course, I gained hands-on experience designing software architecture, developing database models, and building both front-end and back-end systems. I also became proficient in manual testing, using Git for version control, and documenting solutions with OpenAPI."
+        dialogDescription2="One of the most valuable aspects of the course was working on real-world projects, both independently and as part of a team."
+        dialogDescription3="BCS Koolitus(BCS training)"
+        dialogDescription4="Certificate"
+        linkUrl="https://drive.google.com/file/d/1xS9VL7EKNYhXEUtR-CWraQuRKKla0kSW/view?usp=sharing"
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
+        imageSrc="/public/project_images/Majandusarvestus_logo.png"
         imageAlt="Accounting course image"
-        dialogTitle="Accounting course"
+        dialogTitle="Basic Accounting Course"
         dialogSubtitle="Winter 2023"
-        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary"
-        dialogDescription2="The primary goal of this project is to create a user-friendly platform to help my family manage rental bookings while providing a detailed and engaging experience for potential guests. The website promotes our property and the beautiful Badacsony region, making it easier for renters to find and book their stay."
-        dialogDescription3="Vite, Vue.js, pure CSS, HTML, Vercel"
-        dialogDescription4="Check out the page"
-        linkUrl="https://badacsony.vercel.app"
+        dialogDescription1="In early 2023, I completed a comprehensive 48-hour Basic Accounting Course that provided me with a strong grasp of fundamental accounting practices. The course covered essential topics such as balance sheets, bookkeeping, financial statements, payroll accounting, taxation, and inventory management. I also gained hands-on experience with documenting and registering financial transactions, as well as understanding amortization, cost accounting, and VAT."
+        dialogDescription2=""
+        dialogDescription3="Majandusarvestuse Keskus(Center for Economic Accounting)"
+        dialogDescription4="Certificate"
+        linkUrl="https://drive.google.com/file/d/1isRMZIlRed4iB1CooNtRrO1mIEmNAUuO/view?usp=sharing"
     />
 
 

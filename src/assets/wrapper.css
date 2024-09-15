@@ -4,17 +4,20 @@
     margin: 0 auto;
 }
 
-.dialog-wrapper{
-    padding: 2rem 5rem;
+.dialog-wrapper {
+    padding: 1rem 24rem;
 }
-.character-wrapper{
+
+.character-wrapper {
     padding: 2rem 24rem;
 }
+
 .hidden {
     opacity: 0;
     visibility: hidden;
 }
-.in-view{
+
+.in-view {
     opacity: 0;
     transform: translateY(50px); /* Start elements slightly lower */
 }
@@ -24,28 +27,50 @@
     visibility: visible;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
+
+.project-wrapper {
+    padding: 1rem 24rem;
+}
+
 @media (max-width: 768px) {
     .content-wrapper {
         padding: 1rem 2rem;
     }
-    .character-wrapper{
+
+    .character-wrapper {
         padding: 1rem 2rem;
     }
 
+    .project-wrapper {
+        padding: 0 2rem;
+    }
 
 
 }
-@media (min-width: 768px) and (max-width: 1024px){
-    .character-wrapper{
-        padding: 2rem 12rem;
-    }    .dialog-wrapper{
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .character-wrapper {
         padding: 2rem 12rem;
     }
+
+    .dialog-wrapper {
+        padding: 2rem 12rem;
+    }
+    .project-wrapper{
+        padding:1rem 12rem;
+    }
 }
-@media (min-width: 1024px) and (max-width: 1525px){
-    .character-wrapper{
+
+@media (min-width: 1024px) and (max-width: 1525px) {
+    .character-wrapper {
         padding: 2rem 10rem;
-    }    .dialog-wrapper{
+    }
+
+    .dialog-wrapper {
         padding: 2rem 10rem;
+    }
+
+    .project-wrapper {
+        padding: 1rem 10rem;
     }
 }
