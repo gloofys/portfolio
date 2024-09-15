@@ -94,7 +94,7 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Screenshot 2024-08-15 192616.png"
+        imageSrc="/public/project_images/badacsony_webpage_screenshot.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Balaton Wines & Views Webpage"
         dialogSubtitle="Summer 2024"
@@ -145,7 +145,7 @@
         class="flex-equal"
         imageSrc="/public/project_images/valiit_logo.png"
         imageAlt="Vali-IT logo image"
-        dialogTitle="Vali IT! Junior Software Developer"
+        dialogTitle="Vali IT! Junior Software Developer Program"
         dialogSubtitle="Spring 2024"
         dialogDescription1="During the Vali IT! program, I completed 240 hours of intensive training focused on full-stack software development. I worked with technologies like Java, RESTful APIs, Spring Boot, HTML5, CSS, and Vue.js. Throughout the course, I gained hands-on experience designing software architecture, developing database models, and building both front-end and back-end systems. I also became proficient in manual testing, using Git for version control, and documenting solutions with OpenAPI."
         dialogDescription2="One of the most valuable aspects of the course was working on real-world projects, both independently and as part of a team."
@@ -210,4 +210,5 @@ export default {
   flex-basis: 0; /* Start with zero width, but grow to fill space */
   min-width: 200px; /* Optional: Ensures a minimum size on small screens */
 }
+
 </style>
