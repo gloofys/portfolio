@@ -6,33 +6,32 @@
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  </div>
 
-  <!-- Main Text Section -->
-  <div
-      class="absolute inset-0 flex items-center justify-center text-container -mt-144 xl:-mt-72 sm:-mt-160  content-wrapper">
-    <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4">
-      <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1"
-                  class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
-        Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by
-        a passion for creating user-friendly websites.
-      </TextEffect>
+    <!-- Main Text Section -->
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-1/4 sm:-top-1 lg:top-1 xl:top-2">
+        <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1"
+                    class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
+          Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by
+          a passion for creating user-friendly websites.
+        </TextEffect>
+      </div>
     </div>
   </div>
 
   <div class="character-wrapper">
-    <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 font-bold text-center">
+    <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8  bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       Why You Should Hire Me
     </h2>
-    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-center">
-      Here are the qualities and strengths that I bring to the table.
-    </p>
+<!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
+<!--      Here are the qualities and strengths that I bring to the table.-->
+<!--    </p>-->
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Attention to Detail
       </h1>
-      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is
         spot-on—even if it means going the extra millimeter.
       </p>
@@ -42,7 +41,7 @@
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Persistence
       </h1>
-      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop
         until it was perfectly finished.
       </p>
@@ -52,7 +51,7 @@
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Problem-Solving
       </h1>
-      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         In construction, I often had to improvise by tweaking designs or finding alternative materials when plans
         changed unexpectedly.
       </p>
@@ -62,7 +61,7 @@
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Continuous Growth
       </h1>
-      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue
         to learn and evolve. This led me to front-end development.
       </p>
@@ -72,7 +71,7 @@
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Teamwork
       </h1>
-      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
+      <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to
         ensure successful project outcomes.
       </p>
@@ -157,7 +156,7 @@
         class="flex-equal"
         imageSrc="/public/project_images/Majandusarvestus_logo.png"
         imageAlt="Accounting course image"
-        dialogTitle="Basic Accounting Course"
+        dialogTitle="Basic Accounting Standards and Practices"
         dialogSubtitle="Winter 2023"
         dialogDescription1="In early 2023, I completed a comprehensive 48-hour Basic Accounting Course that provided me with a strong grasp of fundamental accounting practices. The course covered essential topics such as balance sheets, bookkeeping, financial statements, payroll accounting, taxation, and inventory management. I also gained hands-on experience with documenting and registering financial transactions, as well as understanding amortization, cost accounting, and VAT."
         dialogDescription2=""
@@ -210,5 +209,7 @@ export default {
   flex-basis: 0; /* Start with zero width, but grow to fill space */
   min-width: 200px; /* Optional: Ensures a minimum size on small screens */
 }
+
+
 
 </style>

@@ -14,7 +14,7 @@ export default {
         customFlush:'#3E3E52',
         customPersian:'#3f384b',
         customAccent: '#ff6f61', // Coral for buttons and accent text
-        customGradientFrom: '#ff6f61', // Coral (for gradients)
+        customGradientFrom: '#0a67d3', // Coral (for gradients)
         customGradientTo: '#f48fb1', // Light pink (for gradients)
         customVibrant:'#3c91e6',
         customGray: '#2d2d2d'
