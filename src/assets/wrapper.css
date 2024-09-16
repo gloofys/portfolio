@@ -5,11 +5,14 @@
 }
 
 .dialog-wrapper {
-    padding: 1rem 24rem;
+    padding: 1rem 22rem;
 }
 
 .character-wrapper {
-    padding: 2rem 24rem;
+    padding: 2rem 22rem;
+}
+.project-wrapper {
+    padding: 1rem 22rem;
 }
 
 .hidden {
@@ -28,9 +31,7 @@
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
-.project-wrapper {
-    padding: 1rem 24rem;
-}
+
 
 @media (max-width: 768px) {
     .content-wrapper {
@@ -53,14 +54,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .character-wrapper {
-        padding: 2rem 12rem;
+        padding: 2rem 10rem;
     }
 
     .dialog-wrapper {
-        padding: 2rem 12rem;
+        padding: 2rem 10rem;
     }
     .project-wrapper{
-        padding:1rem 12rem;
+        padding:1rem 10rem;
     }
 }
 
