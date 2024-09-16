@@ -32,8 +32,7 @@
         Attention to Detail
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        Even when I’m told by colleagues a few millimeters don’t matter, I can’t help but make sure everything is
-        spot-on—even if it means going the extra millimeter.
+        Even when my former colleagues insisted that a few millimeters didn’t matter, I couldn’t help but make sure everything was spot-on—even if it meant going the extra millimeter.
       </p>
     </div>
 
@@ -52,8 +51,7 @@
         Problem-Solving
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        In construction, I often had to improvise by tweaking designs or finding alternative materials when plans
-        changed unexpectedly.
+        In my role as a construction supervisor, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly.
       </p>
     </div>
 
@@ -72,8 +70,7 @@
         Teamwork
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        Construction taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to
-        ensure successful project outcomes.
+        My experience as a construction supervisor taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes.
       </p>
     </div>
   </div>

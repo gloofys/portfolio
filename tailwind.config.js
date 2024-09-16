@@ -16,7 +16,7 @@ export default {
         customAccent: '#ff6f61', // Coral for buttons and accent text
         customGradientFrom: '#0a67d3', // Coral (for gradients)
         customGradientTo: '#f48fb1', // Light pink (for gradients)
-        customVibrant:'#3c91e6',
+        customVibrant:'#187785',
         customGray: '#2d2d2d'
       },
       spacing: {
