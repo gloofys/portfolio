@@ -171,14 +171,15 @@
   </div>
 
   <div class="character-wrapper">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 font-semibold">
+    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 font-semibold bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
       My Ideal Position & Work Environment
     </h2>
 
     <!-- Role Preferences -->
     <div class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">
       <p>As I continue to grow in my development career, I’m open to internships or junior roles where I can expand my
-        skills. My preferences are:</p>
+        skills. </p>
+      <p class="my-4 font-bold ">My preferences are:</p>
       <ol class="list-decimal list-inside">
         <li class="my-4"><strong>Front-End Development</strong>: With the most experience in front-end development, I’m
           passionate about building user-friendly interfaces. I’m eager to deepen my expertise in this area.
