@@ -9,10 +9,12 @@
 
     <!-- Main Text Section -->
     <div class="absolute inset-0 flex items-center justify-center">
-      <div class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-1/4 sm:-top-1 lg:top-1 xl:top-2">
+      <div
+          class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-1/4 sm:-top-1 lg:top-1 xl:top-2">
         <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1"
                     class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
-          Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven by
+          Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven
+          by
           a passion for creating user-friendly websites.
         </TextEffect>
       </div>
@@ -23,16 +25,17 @@
     <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8  bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       Why You Should Hire Me
     </h2>
-<!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
-<!--      Here are the qualities and strengths that I bring to the table.-->
-<!--    </p>-->
+    <!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
+    <!--      Here are the qualities and strengths that I bring to the table.-->
+    <!--    </p>-->
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
         Attention to Detail
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        Even when my former colleagues insisted that a few millimeters didn’t matter, I couldn’t help but make sure everything was spot-on—even if it meant going the extra millimeter.
+        Even when my former colleagues insisted that a few millimeters didn’t matter, I couldn’t help but make sure
+        everything was spot-on—even if it meant going the extra millimeter.
       </p>
     </div>
 
@@ -51,7 +54,8 @@
         Problem-Solving
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        In my role as a construction supervisor, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly.
+        In my role as a construction supervisor, I often had to improvise by tweaking designs or finding alternative
+        materials when plans changed unexpectedly.
       </p>
     </div>
 
@@ -70,7 +74,8 @@
         Teamwork
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
-        My experience as a construction supervisor taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes.
+        My experience as a construction supervisor taught me the value of teamwork by coordinating closely with
+        designers, laborers, and suppliers to ensure successful project outcomes.
       </p>
     </div>
   </div>
@@ -165,6 +170,46 @@
 
   </div>
 
+  <div class="character-wrapper">
+    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 font-semibold">
+      My Ideal Position & Work Environment
+    </h2>
+
+    <!-- Role Preferences -->
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">
+      <p>As I continue to grow in my development career, I’m open to internships or junior roles where I can expand my
+        skills. My preferences are:</p>
+      <ol class="list-decimal list-inside">
+        <li class="my-4"><strong>Front-End Development</strong>: With the most experience in front-end development, I’m
+          passionate about building user-friendly interfaces. I’m eager to deepen my expertise in this area.
+        </li>
+        <li class="my-4"><strong>Full-Stack Development</strong>: I have some experience in back-end development, and
+          I’m excited to further develop my skills in full-stack roles that involve working on both the front-end and
+          back-end of applications.
+        </li>
+        <li class="my-4"><strong>Testing & QA</strong>: While my experience in testing is more limited, I’m open to
+          opportunities where I can contribute to quality assurance and improve my skills in this important area of
+          software development.
+        </li>
+      </ol>
+    </div>
+
+    <!-- Work Environment -->
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4">
+      <p>
+        I’m happy to work in an office or hybrid setup, as I enjoy collaborating with teams in person and remotely.
+      </p>
+    </div>
+
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4">
+      <p>
+        I’m particularly keen on joining a company that encourages continuous learning and professional development. I’m
+        eager to further educate myself through courses, mentorship, and hands-on projects, as I believe ongoing
+        education is key to growth in this field.
+      </p>
+    </div>
+  </div>
+
 
   <!--  Tools and Technologies-->
   <!--  Why?: Listing the tools and technologies you’re proficient with helps potential employers quickly assess your technical skills.-->
@@ -202,11 +247,10 @@ export default {
 <style scoped>
 /* Flex property to ensure equal width for all buttons */
 .flex-equal {
-  flex-grow: 1;  /* Allow the buttons to grow equally */
+  flex-grow: 1; /* Allow the buttons to grow equally */
   flex-basis: 0; /* Start with zero width, but grow to fill space */
   min-width: 200px; /* Optional: Ensures a minimum size on small screens */
 }
-
 
 
 </style>
