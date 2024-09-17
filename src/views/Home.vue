@@ -171,15 +171,15 @@
   </div>
 
   <div class="character-wrapper">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 font-semibold bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
+    <h2 class="in-view text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 mt-8 font-semibold bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
       My Ideal Position & Work Environment
     </h2>
 
     <!-- Role Preferences -->
-    <div class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 in-view">
       <p>As I continue to grow in my development career, I’m open to internships or junior roles where I can expand my
         skills. </p>
-      <p class="my-4 font-bold ">My preferences are:</p>
+      <p class="my-6 font-semibold ">My preferences are:</p>
       <ol class="list-decimal list-inside">
         <li class="my-4"><strong>Front-End Development</strong>: With the most experience in front-end development, I’m
           passionate about building user-friendly interfaces. I’m eager to deepen my expertise in this area.
@@ -196,13 +196,13 @@
     </div>
 
     <!-- Work Environment -->
-    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4">
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4 in-view">
       <p>
         I’m happy to work in an office or hybrid setup, as I enjoy collaborating with teams in person and remotely.
       </p>
     </div>
 
-    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4">
+    <div class="text-base sm:text-lg md:text-xl lg:text-2xl my-4 in-view">
       <p>
         I’m particularly keen on joining a company that encourages continuous learning and professional development. I’m
         eager to further educate myself through courses, mentorship, and hands-on projects, as I believe ongoing
