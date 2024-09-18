@@ -12,8 +12,9 @@
       <img
           :src="imageSrc"
           :alt="imageAlt"
-          class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 object-cover object-top"
+          class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 object-contain object-center"
       />
+
       <div class="flex flex-col items-start justify-center space-y-0">
         <h3 class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] font-medium text-black">{{ dialogTitle }}</h3>
         <p class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] text-gray-600">{{ dialogSubtitle }}</p>
@@ -28,7 +29,7 @@
         @click="toggleDialog"
     ></div>
     <div
-        class="relative h-auto w-[500px] border border-gray-100 bg-white p-6"
+        class="relative h-auto w-[500px] lg:w-[900px] border border-gray-100 bg-white p-6"
         style="border-radius: 12px;"
         ref="dialogRef"
     >
@@ -36,13 +37,13 @@
         <img
             :src="imageSrc"
             :alt="imageAlt"
-            class="h-auto w-[300px]"
+            class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto"
         />
       </div>
       <div>
         <h3 class="text-black">{{ dialogTitle }}</h3>
         <p class="font-light text-gray-400">{{ dialogSubtitle }}</p>
-        <div class="mt-4 text-sm text-gray-700 space-y-2">
+        <div class="mt-4 text-sm lg:text-xl text-gray-700 space-y-2">
           <p>{{ dialogDescription1 }}</p>
           <p>{{ dialogDescription2 }}</p>
           <p>{{ dialogDescription3 }}</p>
