@@ -95,7 +95,7 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/badacsony_webpage_screenshot.png"
+        imageSrc="/project_images/badacsony_webpage_screenshot.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Balaton Wines & Views Webpage"
         dialogSubtitle="Summer 2024"
@@ -107,7 +107,7 @@
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Playpal logo transparent.png"
+        imageSrc="/project_images/Playpal logo transparent.png"
         imageAlt="Image of Playpal logo"
         dialogTitle="Playpal-board game community"
         dialogSubtitle="Spring 2024"
@@ -132,7 +132,7 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/UT_logo.png"
+        imageSrc="/project_images/UT_logo.png"
         imageAlt="Data Science for businesses course image"
         dialogTitle="Data Science in Business Decision-Making"
         dialogSubtitle="Autumn 2024"
@@ -144,7 +144,7 @@
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/valiit_logo.png"
+        imageSrc="/project_images/valiit_logo.png"
         imageAlt="Vali-IT logo image"
         dialogTitle="Vali IT! Junior Software Developer Program"
         dialogSubtitle="Spring 2024"
@@ -156,7 +156,7 @@
     />
     <DialogComponent
         class="flex-equal"
-        imageSrc="/public/project_images/Majandusarvestus_logo.png"
+        imageSrc="/project_images/Majandusarvestus_logo.png"
         imageAlt="Accounting course image"
         dialogTitle="Basic Accounting Standards and Practices"
         dialogSubtitle="Winter 2023"
