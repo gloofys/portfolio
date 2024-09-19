@@ -171,7 +171,7 @@
   </div>
 
   <div class="character-wrapper">
-    <h2 class="in-view text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-8 mt-8 font-semibold bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
+    <h2 class="in-view text-xl sm:text-2xl md:text-3xl lg:text-5xl mb-4 mt-8 pb-2 font-semibold bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
       My Ideal Position & Work Environment
     </h2>
 
