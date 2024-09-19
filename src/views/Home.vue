@@ -1,7 +1,7 @@
 <template>
   <!-- Video Section -->
 
-  <div class="relative mt-16 lg:mt-2 sm:mt-28">
+  <div class="relative mt-48 lg:mt-6 md:mt-12 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -21,8 +21,8 @@
     </div>
   </div>
 
-  <div class="character-wrapper">
-    <h2 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl mb-8  bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
+  <div class="character-wrapper mt-48 lg:mt-24">
+    <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       Why You Should Hire Me
     </h2>
     <!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
