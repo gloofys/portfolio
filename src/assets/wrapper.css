@@ -54,14 +54,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .character-wrapper {
-        padding: 2rem 10rem;
+        padding: 2rem 6rem;
     }
 
     .dialog-wrapper {
-        padding: 2rem 10rem;
+        padding: 2rem 6rem;
     }
     .project-wrapper{
-        padding:1rem 10rem;
+        padding:1rem 6rem;
     }
 }
 
