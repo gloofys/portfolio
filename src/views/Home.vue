@@ -1,7 +1,7 @@
 <template>
   <!-- Video Section -->
 
-  <div class="relative mt-48 lg:mt-6 md:mt-12 sm:mt-28">
+  <div class="relative mt-40 lg:mt-6 md:mt-12 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       Your browser does not support the video tag.
