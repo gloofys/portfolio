@@ -22,7 +22,7 @@
   </div>
 
   <div class="character-wrapper mt-48 lg:mt-24 md:mt-16">
-    <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       Why You Should Hire Me
     </h2>
     <!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
@@ -31,7 +31,7 @@
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
-        Attention to Detail
+        1.Attention to Detail
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         Even when my former colleagues insisted that a few millimeters didn’t matter, I couldn’t help but make sure
@@ -41,7 +41,7 @@
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
-        Persistence
+        2.Persistence
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop
@@ -51,7 +51,7 @@
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
-        Problem-Solving
+        3.Problem-Solving
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         In my role as a construction supervisor, I often had to improvise by tweaking designs or finding alternative
@@ -61,7 +61,7 @@
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
-        Continuous Growth
+        4.Continuous Growth
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue
@@ -71,7 +71,7 @@
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
-        Teamwork
+        5.Teamwork
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
         My experience as a construction supervisor taught me the value of teamwork by coordinating closely with
@@ -84,7 +84,7 @@
   <!-- Latest Projects Section -->
   <div class="flex items-center project-wrapper">
     <div class="text-center max-w-5xl">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
         Latest Projects
       </h1>
     </div>
@@ -122,7 +122,7 @@
   <div class="flex items-center project-wrapper">
 
     <div class="text-center max-w-5xl">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
+      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl leading-snug bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent">
         Latest Courses
       </h1>
     </div>

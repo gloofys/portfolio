@@ -16,7 +16,7 @@
       />
 
       <div class="flex flex-col items-start justify-center space-y-0">
-        <h3 class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] font-medium text-black">{{ dialogTitle }}</h3>
+        <h3 class="text-[14px] sm:text-[14px] md:text-[14px] lg:text-[16px] font-medium text-black">{{ dialogTitle }}</h3>
         <p class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] text-gray-600">{{ dialogSubtitle }}</p>
       </div>
     </div>
@@ -41,7 +41,7 @@
         />
       </div>
       <div>
-        <h3 class="text-black">{{ dialogTitle }}</h3>
+        <h3 class="text-black text-lg lg:text-2xl">{{ dialogTitle }}</h3>
         <p class="font-light text-gray-400">{{ dialogSubtitle }}</p>
         <div class="mt-4 text-sm lg:text-xl text-gray-700 space-y-2">
           <p>{{ dialogDescription1 }}</p>
