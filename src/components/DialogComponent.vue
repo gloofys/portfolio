@@ -25,7 +25,7 @@
   <!-- Dialog Content (Only displayed when isOpen is true) -->
   <div v-if="isOpen" class="fixed inset-0 z-50 flex items-center justify-center">
     <div
-        class="fixed inset-0 h-full w-full bg-white/40 backdrop-blur-sm"
+        class="fixed  inset-0 h-full w-full bg-white/40 backdrop-blur-sm"
         @click="toggleDialog"
     ></div>
     <div
@@ -83,7 +83,10 @@ export default {
   methods: {
     toggleDialog() {
       this.isOpen = !this.isOpen;
+
       if (this.isOpen) {
+        // Add overflow: hidden to the body element when the dialog is open
+        document.body.style.overflow = 'hidden';
         this.openDialog();
         document.addEventListener('keydown', this.handleEscClose);  // Add ESC key listener
         this.$nextTick(() => {
@@ -92,11 +95,14 @@ export default {
           document.addEventListener('keydown', this.handleTabKey);  // Add Tab key listener
         });
       } else {
+        // Remove overflow: hidden from the body element when the dialog is closed
+        document.body.style.overflow = '';  // Set overflow back to its initial state
         this.closeDialog();
         document.removeEventListener('keydown', this.handleEscClose);  // Remove ESC key listener
         document.removeEventListener('keydown', this.handleTabKey);  // Remove Tab key listener
         this.$refs.triggerRef.focus();  // Return focus to the trigger
-      }
+
+    }
     },
     openDialog() {
       this.$nextTick(() => {

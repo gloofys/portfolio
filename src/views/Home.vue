@@ -23,7 +23,7 @@
 
   <div class="character-wrapper mt-48 lg:mt-24 md:mt-16">
     <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
-      Why You Should Hire Me
+      What I Bring to the Table
     </h2>
     <!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
     <!--      Here are the qualities and strengths that I bring to the table.-->
