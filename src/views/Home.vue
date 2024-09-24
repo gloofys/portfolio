@@ -26,9 +26,6 @@
     <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       What I Bring to the Table
     </h2>
-    <!--    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">-->
-    <!--      Here are the qualities and strengths that I bring to the table.-->
-    <!--    </p>-->
 
     <div class="in-view mb-6 xl:mb-10">
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
