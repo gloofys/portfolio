@@ -28,7 +28,7 @@
     </h2>
 
     <div class="in-view mb-6 xl:mb-10">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+      <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-medium leading-snug mb-2">
         1.Attention to Detail
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
@@ -38,7 +38,7 @@
     </div>
 
     <div class="in-view mb-6 xl:mb-10">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+      <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-medium leading-snug mb-2">
         2.Persistence
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
@@ -48,7 +48,7 @@
     </div>
 
     <div class="in-view mb-6 xl:mb-10">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+      <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-medium leading-snug mb-2">
         3.Problem-Solving
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
@@ -58,7 +58,7 @@
     </div>
 
     <div class="in-view mb-6 xl:mb-10">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+      <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-medium leading-snug mb-2">
         4.Continuous Growth
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
@@ -68,7 +68,7 @@
     </div>
 
     <div class="in-view mb-6 xl:mb-10">
-      <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug mb-2">
+      <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-medium leading-snug mb-2">
         5.Teamwork
       </h1>
       <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-thin">
