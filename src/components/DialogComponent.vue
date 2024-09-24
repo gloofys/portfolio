@@ -29,7 +29,7 @@
         @click="toggleDialog"
     ></div>
     <div
-        class="relative h-auto w-[500px] lg:w-[900px] border border-gray-100 bg-white p-6"
+        class="relative h-auto w-[500px] lg:w-[900px] border border-gray-100 bg-white p-6 dialog-content"
         style="border-radius: 12px;"
         ref="dialogRef"
     >
@@ -158,5 +158,12 @@ export default {
 </script>
 
 <style scoped>
-/* Add your custom styles here */
+@media screen and (orientation: landscape) {
+  .dialog-content {
+    width: 80vw; /* Only in landscape mode */
+    max-width: 100vh; /* Max width in landscape */
+    max-height: 100vh; /* Height restricted in landscape */
+    overflow: auto; /* Ensure content is scrollable */
+  }
+}
 </style>
