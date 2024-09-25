@@ -11,9 +11,19 @@
           </svg>
         </a>
         <a href="https://drive.google.com/file/d/13_nzqKP1soc1VWG6XjZrV51PDIjP2vGx/view?usp=sharing" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-8 lg:h-8 text-customBlue hover:text-blue-800 transition duration-300 rounded-sm" viewBox="0 0 24 24">
-            <rect width="24" height="24" fill="currentColor"/>
-            <text x="12" y="18" font-family="Arial" font-size="10" fill="custom" text-anchor="middle" class="text-customSnuff font-bold text-base text-center">CV</text>
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-8 lg:h-8 text-customBlue hover:text-blue-800 transition duration-300" viewBox="0 0 24 24">
+            <!-- Mask for the CV letters -->
+            <mask id="cv-mask">
+              <!-- Rectangle fully filled -->
+              <rect x="0" y="0" width="24" height="24"  rx="2" ry="2" fill="white"/>
+              <!-- CV letters, 'cut out' from the rectangle -->
+              <text x="50%" y="55%" font-size="12" font-family="Arial Black" fill="black" font-weight="900" text-anchor="middle" dominant-baseline="middle" >
+                CV
+              </text>
+            </mask>
+
+            <!-- Background rectangle using the mask -->
+            <rect x="0" y="0" width="24" height="24" fill="currentColor" mask="url(#cv-mask)"/>
           </svg>
         </a>
       </div>
