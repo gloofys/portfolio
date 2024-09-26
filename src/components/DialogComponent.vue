@@ -158,12 +158,23 @@ export default {
 </script>
 
 <style scoped>
+.dialog-content {
+  /* General settings for both portrait and landscape */
+  max-height: 90vh; /* Ensure dialog doesn't exceed 90% of the viewport height */
+  overflow: auto;   /* Allow scrolling when content exceeds max-height */
+}
+
 @media screen and (orientation: landscape) {
   .dialog-content {
-    width: 80vw; /* Only in landscape mode */
+    width: 80vw;     /* Only in landscape mode */
     max-width: 100vh; /* Max width in landscape */
-    max-height: 100vh; /* Height restricted in landscape */
-    overflow: auto; /* Ensure content is scrollable */
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .dialog-content {
+    width: 90vw;     /* Adjust width for portrait mode */
+    max-height: 90vh; /* Restrict height to allow scrolling */
   }
 }
 </style>
