@@ -1,7 +1,7 @@
 <template>
   <!-- Video Section -->
 
-  <div class="relative mt-40 lg:mt-6 md:mt-12 sm:mt-28">
+  <div class="relative mt-56 lg:mt-6 md:mt-12 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto" poster="/alt_image.png">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       <!-- Fallback image if video tag is not supported -->
@@ -11,7 +11,7 @@
     <!-- Main Text Section -->
     <div class="absolute inset-0 flex items-center justify-center">
       <div
-          class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-[85%] sm:-top-1 lg:top-1 xl:top-2">
+          class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-[95%] sm:-top-1 lg:top-1 xl:top-2">
         <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1"
                     class="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
           Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="character-wrapper mt-48 lg:mt-24 md:mt-16">
+  <div class="character-wrapper mt-44 lg:mt-24 md:mt-16">
     <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       What I Bring to the Table
     </h2>
