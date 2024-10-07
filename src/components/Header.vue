@@ -17,7 +17,7 @@
               <!-- Rectangle fully filled -->
               <rect x="0" y="0" width="24" height="24"  rx="2" ry="2" fill="white"/>
               <!-- CV letters, 'cut out' from the rectangle -->
-              <text x="50%" y="55%" font-size="12" font-family="Arial Black" fill="black" font-weight="900" text-anchor="middle" dominant-baseline="middle" >
+              <text x="50%" y="60%" font-size="14" font-family="Arial Black" fill="black" font-weight="900" text-anchor="middle" dominant-baseline="middle" >
                 CV
               </text>
             </mask>
