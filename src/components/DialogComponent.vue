@@ -64,6 +64,7 @@ import { gsap } from 'gsap';
 export default {
   name: 'DialogComponent',
   props: {
+    id: String, // Unique identifier for each dialog
     imageSrc: String,
     imageAlt: String,
     dialogTitle: String,
@@ -77,7 +78,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      focusableElements: null,  // Elements to trap focus
+      focusableElements: null,
     };
   },
   methods: {
@@ -85,61 +86,53 @@ export default {
       this.isOpen = !this.isOpen;
 
       if (this.isOpen) {
-        // Add overflow: hidden to the body when the dialog is open
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';  // Disable page scroll
         this.openDialog();
-        document.addEventListener('keydown', this.handleEscClose);  // Add ESC key listener
+
+        history.pushState({ dialogOpen: this.id }, ''); // Use dialog's unique ID in state
+
+        window.addEventListener('popstate', this.handlePopState); // Handle back button
+
         this.$nextTick(() => {
           this.focusableElements = this.getFocusableElements();
-          this.focusableElements[0].focus();  // Set focus to the first focusable element in the dialog
-          document.addEventListener('keydown', this.handleTabKey);  // Add Tab key listener
+          this.focusableElements[0].focus();  // Focus on first element in the dialog
+          document.addEventListener('keydown', this.handleTabKey);  // Tab key navigation
+          document.addEventListener('keydown', this.handleEscClose);  // Esc to close dialog
         });
       } else {
-        // Remove overflow: hidden when the dialog is closed
-        document.body.style.overflow = '';  // Restore page scrollability
+        document.body.style.overflow = '';  // Re-enable page scroll
         this.closeDialog();
-        document.removeEventListener('keydown', this.handleEscClose);  // Remove ESC key listener
-        document.removeEventListener('keydown', this.handleTabKey);  // Remove Tab key listener
-        this.$refs.triggerRef.focus();  // Return focus to the trigger element
+        window.removeEventListener('popstate', this.handlePopState);
+        this.$refs.triggerRef.focus();  // Return focus to trigger element
       }
     },
+
+    handleEscClose(event) {
+      if (event.key === 'Escape' && this.isOpen) {
+        this.toggleDialog();  // Close the current dialog with Esc
+      }
+    },
+
+    handlePopState(event) {
+      if (event.state && event.state.dialogOpen === this.id) {
+        this.toggleDialog();  // Close the dialog when back is pressed
+      }
+    },
+
     openDialog() {
       this.$nextTick(() => {
-        gsap.fromTo(this.$refs.dialogRef, { opacity: 0 }, { opacity: 1, duration: 0.5 });
+        if (this.$refs.dialogRef) {
+          gsap.fromTo(this.$refs.dialogRef, { opacity: 0 }, { opacity: 1, duration: 0.5 });
+        }
       });
     },
-    closeDialog() {
-      gsap.to(this.$refs.dialogRef, { opacity: 0, duration: 0.5 });
-    },
-    handleEscClose(event) {
-      if (event.key === 'Escape') {
-        this.toggleDialog();
-      }
-    },
-    handleTabKey(event) {
-      if (event.key === 'Tab') {
-        const firstElement = this.focusableElements[0];
-        const lastElement = this.focusableElements[this.focusableElements.length - 1];
 
-        if (event.shiftKey) {  // If Shift+Tab is pressed
-          if (document.activeElement === firstElement) {
-            lastElement.focus();  // Loop back to the last element
-            event.preventDefault();
-          }
-        } else {  // If Tab is pressed
-          if (document.activeElement === lastElement) {
-            firstElement.focus();  // Loop back to the first element
-            event.preventDefault();
-          }
-        }
+    closeDialog() {
+      if (this.$refs.dialogRef) {
+        gsap.to(this.$refs.dialogRef, { opacity: 0, duration: 0.5 });
       }
     },
-    handleKeydown(event) {
-      // Handle Enter or Space key to open the dialog
-      if (event.key === 'Enter' || event.key === ' ') {
-        this.toggleDialog();
-      }
-    },
+
     getFocusableElements() {
       const focusableSelectors = [
         'a[href]',
@@ -152,7 +145,9 @@ export default {
       return this.$refs.dialogRef.querySelectorAll(focusableSelectors.join(', '));
     },
   },
-}
+};
+
+
 </script>
 
 <style scoped>
@@ -161,6 +156,7 @@ export default {
   max-height: 90vh; /* Ensure dialog doesn't exceed 90% of the viewport height */
   overflow: auto;   /* Allow scrolling when content exceeds max-height */
 }
+
 
 @media screen and (orientation: landscape) {
   .dialog-content {
