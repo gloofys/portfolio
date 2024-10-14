@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="character-wrapper mt-44 lg:mt-24 md:mt-16">
+  <div class="character-wrapper mt-32 lg:mt-24 md:mt-16">
     <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 lg:mb-8 bg-gradient-to-r from-customGradientFrom to-customGradientTo bg-clip-text text-transparent pb-2 md:pb-5">
       What I Bring to the Table
     </h2>
