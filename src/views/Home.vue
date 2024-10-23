@@ -1,7 +1,7 @@
 <template>
   <!-- Video Section -->
 
-  <div class="relative mt-56 lg:mt-6 md:mt-12 sm:mt-28">
+  <div class="relative mt-56 lg:mt-6 xl:mt-32 md:mt-12 sm:mt-28">
     <video autoplay loop muted playsinline class="w-full h-auto" poster="/alt_image.png">
       <source src="/FFFFF0001-0200.mp4" type="video/mp4">
       <!-- Fallback image if video tag is not supported -->
@@ -11,7 +11,7 @@
     <!-- Main Text Section -->
     <div class="absolute inset-0 flex items-center justify-center">
       <div
-          class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-[95%] sm:-top-1 lg:top-1 xl:top-2">
+          class="text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-5xl p-4 absolute -top-[95%] sm:-top-1 lg:top-1 xl:-top-[10%]">
         <TextEffect ref="mainTextRef" preset="blur" per="word" as="h1"
                     class="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-normal xl:leading-snug font-extrabold">
           Hello! I'm Fred Brosman, a landscape construction supervisor transitioning into front-end development, driven
