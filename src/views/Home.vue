@@ -137,8 +137,8 @@
         dialogDescription1="This course focused on the practical applications of data science in business environments, introducing standard processes like CRISP-DM, data collection, cleaning, and visualization. It also covers key topics such as machine learning, business analytics, and the role of data science in decision-making."
         dialogDescription2=""
         dialogDescription3="University of Tartu"
-        dialogDescription4=""
-        linkUrl=""
+        dialogDescription4="Certificate"
+        linkUrl="https://drive.google.com/file/d/1YGfdoiRxxFLWRi0wOU-ajrRsOCCs6D4-/view?usp=sharing"
     />
     <DialogComponent
         class="flex-equal"
