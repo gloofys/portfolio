@@ -94,7 +94,7 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/project_images/badacsony_webpage_screenshot.png"
+        imageSrc="/project_images/Untitled-6.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Opacity Puzzle Game"
         dialogSubtitle="In Progress"
