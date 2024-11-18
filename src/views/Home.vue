@@ -90,7 +90,22 @@
 
 
   <!-- Flex container for dialog components -->
+
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
+    <DialogComponent
+        class="flex-equal"
+        imageSrc="/project_images/badacsony_webpage_screenshot.png"
+        imageAlt="Image of Badacsony website"
+        dialogTitle="Opacity Puzzle Game"
+        dialogSubtitle="In Progress"
+        dialogDescription1="Puzzle game, where puzzle piece opacity changes based on its coordinates"
+        dialogDescription2="Developing a puzzle game to improve my skills in React, Javascript."
+        dialogDescription3="Reacts.js, CSS, HTML,"
+        dialogDescription4="Github Repository"
+        linkUrl="https://github.com/gloofys/puzzle"
+    />
+
+
     <DialogComponent
         class="flex-equal"
         imageSrc="/project_images/badacsony_webpage_screenshot.png"
