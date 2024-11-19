@@ -94,13 +94,13 @@
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
         class="flex-equal"
-        imageSrc="/project_images/Untitled-6.png"
+        imageSrc="/project_images/puzzle3.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Opacity Puzzle Game"
         dialogSubtitle="In Progress"
-        dialogDescription1="Puzzle game, where puzzle piece opacity changes based on its coordinates"
+        dialogDescription1="A dynamic puzzle game where each piece's opacity changes based on its proximity to the correct position, offering visual cues to guide players"
         dialogDescription2="Developing a puzzle game to improve my skills in React, Javascript."
-        dialogDescription3="Reacts.js, CSS, HTML,"
+        dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/puzzle"
     />
