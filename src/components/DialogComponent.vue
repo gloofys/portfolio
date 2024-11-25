@@ -2,7 +2,7 @@
   <div>
     <!-- Dialog Trigger (Add @keydown to handle Enter/Space key) -->
     <div
-        class="bg-customSnuff cursor-pointer relative transform hover:scale-105 hover:shadow-lg transition-transform duration-300"
+        class="bg-customSnuff cursor-pointer relative transform sm:hover:scale-105 sm:hover:shadow-lg transition-transform duration-300"
         @click="toggleDialog"
         @keydown="handleKeydown"
     ref="triggerRef"
