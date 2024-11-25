@@ -93,7 +93,7 @@
 
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
     <DialogComponent
-        class="flex-equal"
+        class="flex-equal opacity-puzzle-game"
         imageSrc="/project_images/puzzle3.png"
         imageAlt="Image of Badacsony website"
         dialogTitle="Opacity Puzzle Game"
@@ -264,6 +264,7 @@ export default {
   flex-grow: 1; /* Allow the buttons to grow equally */
   flex-basis: 0; /* Start with zero width, but grow to fill space */
   min-width: 200px; /* Optional: Ensures a minimum size on small screens */
+  max-width: 600px;
 }
 
 

@@ -15,10 +15,11 @@
           class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 object-contain object-center"
       />
 
-      <div class="flex flex-col items-start justify-center space-y-0">
-        <h3 class="text-[14px] sm:text-[14px] md:text-[14px] lg:text-[16px] font-medium text-black">{{ dialogTitle }}</h3>
-        <p class="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] text-gray-600">{{ dialogSubtitle }}</p>
+      <div class="flex flex-col items-start justify-center space-y-0 text-container">
+        <h3 class="dialog-title">{{ dialogTitle }}</h3>
+        <p class="dialog-subtitle">{{ dialogSubtitle }}</p>
       </div>
+
     </div>
   </div>
 
@@ -37,7 +38,7 @@
         <img
             :src="imageSrc"
             :alt="imageAlt"
-            class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto"
+            class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg h-auto"
         />
       </div>
       <div>

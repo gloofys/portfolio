@@ -31,6 +31,43 @@
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
+.text-container {
+    width: 100%; /* Ensure consistent width */
+    height: 60px; /* Set a fixed height for uniformity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden; /* Prevent overflow of content */
+    text-align: left;
+}
+
+/* Title styles */
+.dialog-title {
+    font-size: 14px; /* Ensure consistent font size */
+    font-weight: 500;
+    color: black;
+    max-height: 1.2rem; /* Limit title height */
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for long titles */
+    margin: 0; /* Remove default margin */
+}
+
+/* Subtitle styles */
+.dialog-subtitle {
+    font-size: 12px; /* Subtitle font size */
+    color: #666; /* Subtle text color */
+    max-height: 1.2rem; /* Limit subtitle height */
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for long subtitles */
+    margin: 0; /* Remove default margin */
+}
+.opacity-puzzle-game img {
+    max-width: 300px; /* Adjust the value as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 @media (max-width: 768px) {
