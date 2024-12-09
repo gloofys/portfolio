@@ -43,16 +43,29 @@
 }
 
 /* Title styles */
+/* Title styles with ellipsis */
+/* Title styles with ellipsis */
+/* Title styles with ellipsis fix */
 .dialog-title {
-    font-size: 14px; /* Ensure consistent font size */
+    font-family: 'EB Garamond', 'Georgia', serif; /* Closest alternative */
+    font-size: 1.1rem;
     font-weight: 500;
     color: black;
-    max-height: 1.2rem; /* Limit title height */
-    overflow: hidden; /* Hide overflowing text */
-    white-space: nowrap; /* Prevent text wrapping */
-    text-overflow: ellipsis; /* Add ellipsis for long titles */
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5rem;                /* Ensure full height */
+    height: 1.5rem;                     /* Consistent height */
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;             /* Ensure proper alignment */
 }
+
+
+
+
+
 
 /* Subtitle styles */
 .dialog-subtitle {
