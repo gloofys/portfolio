@@ -98,9 +98,9 @@
         imageAlt="Image of Badacsony website"
         dialogTitle="Opacity Puzzle Game"
         dialogSubtitle="In Progress"
-        dialogDescription1="A dynamic puzzle game where each piece's opacity changes based on its proximity to the correct position, offering visual cues to guide players"
+        dialogDescription1="A dynamic puzzle game where each piece's opacity changes based on its proximity to the correct position, offering visual cues to guide players."
         dialogDescription2="Developing a puzzle game to improve my skills in React, Javascript."
-        dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions."
+        dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions. It is working for desktop only at the moment."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/puzzle"
     />
@@ -112,9 +112,9 @@
         imageAlt="Image of Badacsony website"
         dialogTitle="Balaton Wines & Views Webpage"
         dialogSubtitle="Summer 2024"
-        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary"
+        dialogDescription1="Comprehensive rental website for my family's property in the beautiful Badacsony region of Hungary."
         dialogDescription2="The primary goal of this project is to create a user-friendly platform to help my family manage rental bookings while providing a detailed and engaging experience for potential guests. The website promotes our property and the beautiful Badacsony region, making it easier for renters to find and book their stay."
-        dialogDescription3="Vite, Vue.js, pure CSS, HTML, Vercel"
+        dialogDescription3="Vite, Vue.js,CSS, HTML, Vercel"
         dialogDescription4="Check out the page"
         linkUrl="https://badacsony.vercel.app"
     />
