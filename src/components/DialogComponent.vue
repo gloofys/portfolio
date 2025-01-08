@@ -51,6 +51,9 @@
           <p>
             <a :href="linkUrl" target="_blank" class="text-blue-500 hover:text-blue-700">{{ dialogDescription4 }}</a>
           </p>
+          <p>
+          <a :href="linkUrl2" target="_blank" class="text-blue-500 hover:text-blue-700">{{ dialogDescription5 }}</a>
+          </p>
         </div>
       </div>
       <button @click="toggleDialog" class="absolute right-6 top-6 text-zinc-500" ref="closeBtn">Close</button>
@@ -74,7 +77,9 @@ export default {
     dialogDescription2: String,
     dialogDescription3: String,
     dialogDescription4: String,
+    dialogDescription5: String,
     linkUrl: String,
+    linkUrl2: String,
   },
   data() {
     return {

@@ -103,6 +103,8 @@
         dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions. It is working for desktop only at the moment."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/puzzle"
+        dialogDescription5="Webpage(DESKTOP only, not built for mobile)"
+        linkUrl2="https://opacitypuzzle.vercel.app"
     />
 
 
