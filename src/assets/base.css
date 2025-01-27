@@ -35,6 +35,17 @@
 
   --section-gap: 160px;
 }
+/* padding sizes */
+:root {
+  --small-padding: 1rem 2rem;
+  --medium-padding: 2rem 8rem;
+  --large-padding: 2rem 14rem;
+  --extra-large-padding: 2rem 18rem;
+  --2extra-large-padding: 2rem 30rem;
+  --3extra-large-padding: 2rem 42rem;
+
+
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
