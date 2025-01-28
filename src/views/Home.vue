@@ -100,7 +100,7 @@
         dialogSubtitle="In Progress"
         dialogDescription1="A dynamic puzzle game where each piece's opacity changes based on its proximity to the correct position, offering visual cues to guide players."
         dialogDescription2="Developing a puzzle game to improve my skills in React, Javascript."
-        dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions. It is working for desktop only at the moment."
+        dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions. It is currently optimized for desktop use only. The AI image generation feature is powered by Hugging Face, which may experience a 'cold start' if the model hasn’t been used recently. This means it could take up to 5 minutes to load the model before the first image can be generated. Subsequent image generations will be much faster."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/puzzle"
         dialogDescription5="Webpage(DESKTOP only, not built for mobile)"
