@@ -99,7 +99,7 @@
         dialogTitle="Opacity Puzzle Game"
         dialogSubtitle="In Progress"
         dialogDescription1="A dynamic puzzle game where each piece's opacity changes based on its proximity to the correct position, offering visual cues to guide players."
-        dialogDescription2="Developing a puzzle game to improve my skills in React, Javascript."
+        dialogDescription2="Developing a puzzle game to to enhance my JavaScript skills, focusing on React development."
         dialogDescription3="This project is a fun and interactive way to enhance my skills in React, JavaScript, and modern web development. The game challenges players to assemble an image by dragging and dropping puzzle pieces into their correct positions. It is currently optimized for desktop use only. The AI image generation feature is powered by Hugging Face, which may experience a 'cold start' if the model hasn’t been used recently. This means it could take up to 5 minutes to load the model before the first image can be generated. Subsequent image generations will be much faster."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/puzzle"
@@ -128,7 +128,7 @@
         dialogSubtitle="Spring 2024"
         dialogDescription1="Group project made in Vali-IT(adult re-education program for junior software developer role) with Valle and Katrin."
         dialogDescription2="Our idea was to create a website for board game enthusiasts, where they could create and join different events. I was responsible for 75% of the projects back-end and about 25% front-end."
-        dialogDescription3="Vue, Java, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
+        dialogDescription3="Vue, Java, Spring boot, PostgreSQL, Swagger, Balsamiq, Bootstrap, Vertabelo"
         dialogDescription4="Link to git project repository"
         linkUrl="https://github.com/vallekapstas/playpalback"
     />
