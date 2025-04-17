@@ -92,6 +92,19 @@
   <!-- Flex container for dialog components -->
 
   <div class="flex flex-wrap gap-6 justify-center items-stretch dialog-wrapper">
+
+    <DialogComponent
+        class="flex-equal"
+        imageSrc="/project_images/syntaxtyper_screenshot.png"
+        imageAlt="Screenshot of SyntaxTyper platform"
+        dialogTitle="SyntaxTyper"
+        dialogSubtitle="In Progress"
+        dialogDescription1="An interactive, multi‑language typing tutor supporting JavaScript, Python, Java, and more."
+        dialogDescription2="Right now I’m focused on the React track—building lesson routing, dynamic step content, and reusable components for React lessons."
+        dialogDescription3="Next up: adding Vue and Python lesson modules, plus blank‑line exercises for deeper learning."
+    />
+
+
     <DialogComponent
         class="flex-equal opacity-puzzle-game"
         imageSrc="/project_images/puzzle3.png"
