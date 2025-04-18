@@ -95,13 +95,15 @@
 
     <DialogComponent
         class="flex-equal"
-        imageSrc="/project_images/syntaxtyper_screenshot.png"
+        imageSrc="/project_images/syntax_logo_2.png"
         imageAlt="Screenshot of SyntaxTyper platform"
         dialogTitle="SyntaxTyper"
         dialogSubtitle="In Progress"
-        dialogDescription1="An interactive, multi‑language typing tutor supporting JavaScript, Python, Java, and more."
+        dialogDescription1="An interactive, multi-language typing tutor designed to improve coding speed and help users familiarize themselves with the syntax of languages like React, Python, Java, and more."
         dialogDescription2="Right now I’m focused on the React track—building lesson routing, dynamic step content, and reusable components for React lessons."
-        dialogDescription3="Next up: adding Vue and Python lesson modules, plus blank‑line exercises for deeper learning."
+        dialogDescription3="Next up: adding Java lesson modules, plus blank‑line exercises for deeper learning."
+        dialogDescription4="Github Repository"
+        linkUrl="https://github.com/gloofys/syntaxtyper"
     />
 
 
