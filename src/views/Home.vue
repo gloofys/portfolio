@@ -108,6 +108,21 @@
 
 
     <DialogComponent
+        class="flex-equal flight-planner"
+        imageSrc="/project_images/plane-icon-2.png"
+        imageAlt="Screenshot of Flight Planner App"
+        dialogTitle="Flight Planner App"
+        dialogSubtitle="March 2024"
+        dialogDescription1="A full-stack flight planner application built as a home test assignment for an IT company, with a 2-week deadline. The project was successfully completed and deployed within the time frame."
+        dialogDescription2="Built using React (Vite, TypeScript, TailwindCSS) for the frontend and Spring Boot for the backend, deployed on Render. Flights and seat availability are randomly generated to simulate real-world flight booking scenarios."
+        dialogDescription3="The app allows users to search for flights, view detailed information, choose seats dynamically, and filter flights by multiple criteria. Seat plans reset when choosing a new flight."
+        dialogDescription4="Github Repository"
+        linkUrl="https://github.com/gloofys/flight-planner"
+        dialogDescription5="Live Web App"
+        linkUrl2="https://flight-planner-1.onrender.com"
+    />
+
+    <DialogComponent
         class="flex-equal opacity-puzzle-game"
         imageSrc="/project_images/puzzle3.png"
         imageAlt="Image of Badacsony website"
@@ -281,7 +296,7 @@ export default {
   flex-grow: 1; /* Allow the buttons to grow equally */
   flex-basis: 0; /* Start with zero width, but grow to fill space */
   min-width: 200px; /* Optional: Ensures a minimum size on small screens */
-  max-width: 600px;
+  max-width: 1100px;
 }
 
 
