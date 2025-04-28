@@ -120,6 +120,8 @@
         linkUrl="https://github.com/gloofys/flight-planner"
         dialogDescription5="Live Web App"
         linkUrl2="https://flight-planner-1.onrender.com"
+        dialog-description6="Assignment instructions"
+        link-url3="https://docs.google.com/document/d/14nid_dYF-b4GQRs0ZIySy-LnGQb94_GPKFgwbkkg8mk/edit?usp=sharing"
     />
 
     <DialogComponent
