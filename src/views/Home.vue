@@ -109,7 +109,7 @@
 
     <DialogComponent
         class="flex-equal flight-planner"
-        imageSrc="/project_images/plane-icon-2.png"
+        imageSrc="/project_images/plane-icon.png"
         imageAlt="Screenshot of Flight Planner App"
         dialogTitle="Flight Planner App"
         dialogSubtitle="March 2024"
@@ -118,8 +118,6 @@
         dialogDescription3="The app allows users to search for flights, view detailed information, choose seats dynamically, and filter flights by multiple criteria. Seat plans reset when choosing a new flight."
         dialogDescription4="Github Repository"
         linkUrl="https://github.com/gloofys/flight-planner"
-        dialogDescription5="Live Web App"
-        linkUrl2="https://flight-planner-1.onrender.com"
         dialog-description6="Assignment instructions"
         link-url3="https://docs.google.com/document/d/14nid_dYF-b4GQRs0ZIySy-LnGQb94_GPKFgwbkkg8mk/edit?usp=sharing"
     />

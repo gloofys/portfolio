@@ -23,7 +23,6 @@
     </div>
   </div>
 
-  <!-- Dialog Content (Only displayed when isOpen is true) -->
   <div v-if="isOpen" class="fixed inset-0 z-50 flex items-center justify-center">
     <div
         class="fixed  inset-0 h-full w-full bg-white/40 backdrop-blur-sm"
@@ -71,7 +70,7 @@ import { gsap } from 'gsap';
 export default {
   name: 'DialogComponent',
   props: {
-    id: String, // Unique identifier for each dialog
+    id: String,
     imageSrc: String,
     imageAlt: String,
     dialogTitle: String,
