@@ -99,11 +99,11 @@
         imageAlt="Screenshot of SyntaxTyper platform"
         dialogTitle="SyntaxTyper"
         dialogSubtitle="In Progress"
-        dialogDescription1="An interactive, multi-language typing tutor designed to improve coding speed and help users familiarize themselves with the syntax of languages like React, Python, Java, and more."
-        dialogDescription2="Right now I’m focused on the React track—building lesson routing, dynamic step content, and reusable components for React lessons."
-        dialogDescription3="Next up: adding Java lesson modules, plus blank‑line exercises for deeper learning."
-        dialogDescription4="Github Repository"
-        linkUrl="https://github.com/gloofys/syntaxtyper"
+        dialogDescription1 = "An interactive, multi-language typing tutor to boost coding speed and build syntax fluency in React, Python, Java, and more."
+        dialogDescription2 = "As a TalTech student, I’m building the University track—real TalTech subjects with step-based lectures and exercises, quizzes, typing practice, and progress tracking."
+        dialogDescription3 = "Next up: Java modules, blank-line code drills, and more interactive math/CS demos to help classmates (and me) learn faster and connect."
+        dialogDescription4 = "Try the live MVP"
+        linkUrl = "https://frontsyntaxtyper.vercel.app"
     />
 
 
